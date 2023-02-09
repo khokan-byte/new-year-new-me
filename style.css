@@ -88,8 +88,9 @@ p{
 .bottom{
     margin: 60px;
     margin-bottom: 150px;
+    border-radius: 5px;
     padding: 50px;
-    max-width: 70%;
+    max-width: 90%;
     height: 300px;
     background: linear-gradient( 90deg, rgba(75, 75, 128, 0.274), rgb(9, 176, 206));
 }
@@ -121,8 +122,11 @@ footer{
 .footer-half .btn{
  margin-top: 20px;
 }
-footer h3{
-    color: white;
 
+.footer-half h3{
+    color: beige;
+}
+#contact{
+    color: white;
 }
 
