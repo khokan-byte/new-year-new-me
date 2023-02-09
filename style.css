@@ -48,7 +48,7 @@ p{
 .btn{
     font-size: 20px;
     font-weight: 800px;
-    color: #005FAC;
+    color: white;
     background-color: orangered;
     height: 60px;
     width: 160px;
@@ -56,20 +56,73 @@ p{
     border-radius: 5px;
 }
 
-.middle-part{
+.middle-half{
     display: flex;
     align-items: center;
     margin-top: 100px;
     margin-left: 200px;
+    width: 50%;
 }
-.middle-part ul> li{
+
+.middle-half ul> li{
     list-style-type: none;
 }
+.icon{
+    color: rgb(68, 153, 192);
+    margin-right: 10px;
+}
+
+#my-plan{
+    text-align: center;
+    margin: 150px 150px;
+
+}
+
 .plans{
     text-align: center;
     display: flex;
+    max-width: 95%;
+    justify-content: space-around;
+
 }
-.plans ul> li{
-    list-style: 218px 197px;
-    list-style-type: none;
+.bottom{
+    margin: 60px;
+    margin-bottom: 150px;
+    padding: 50px;
+    max-width: 70%;
+    height: 300px;
+    background: linear-gradient( 90deg, rgba(75, 75, 128, 0.274), rgb(9, 176, 206));
 }
+.bottom h2{
+    margin-bottom: 20px;
+}
+
+footer{
+    background-color: #151414;
+    height: 580px;
+    display: flex;
+    align-items: center;
+
+}
+.footer-half{
+    width: 50%;
+    margin-left: 100px;
+    padding: 20px;
+}
+
+.footer-half ul{
+    padding: 0;
+}
+.footer-half ul> li{
+    list-style: none;
+    display: inline;
+    margin: 5px;
+}
+.footer-half .btn{
+ margin-top: 20px;
+}
+footer h3{
+    color: white;
+
+}
+
