@@ -12,8 +12,7 @@ header{
     background-size: cover;
     height: 810px;
 }
-
-
+/* banner */
 .banner{
     text-align: right;
     margin-right: 10%;
@@ -22,11 +21,13 @@ header{
     top: 200px;
     right: 200px;
 }
+
+/* font styling */
 h1{
     font-size: 60px;
     font-weight: bold;
     margin-top: 20px;
-    
+ 
 }
 h2{
     font-size: 40px;
@@ -45,6 +46,7 @@ p{
     padding: 5px 4px;;
 }
 
+/* primary button */
 .btn{
     font-size: 20px;
     font-weight: 800px;
@@ -55,7 +57,7 @@ p{
     border: none;
     border-radius: 5px;
 }
-
+/* main section */
 .middle-half{
     display: flex;
     align-items: center;
@@ -85,6 +87,7 @@ p{
     justify-content: space-around;
 
 }
+/* bottom styling */
 .bottom{
     margin: 60px;
     margin-bottom: 150px;
@@ -97,13 +100,13 @@ p{
 .bottom h2{
     margin-bottom: 20px;
 }
-
+/* faq section */
 .faq{
     max-width: 60%;
     margin-left: 300px;
     margin-bottom: 100px;
 }
-
+/* footer */
 footer{
     background-color: #151414;
     height: 580px;
@@ -132,6 +135,7 @@ footer{
 .footer-half h3{
     color: beige;
 }
+/* contact */
 #contact{
     color: white;
 }
