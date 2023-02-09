@@ -22,25 +22,54 @@ header{
     top: 200px;
     right: 200px;
 }
-.container h1{
+h1{
     font-size: 60px;
     font-weight: bold;
     margin-top: 20px;
     
 }
-.container p{
+h2{
+    font-size: 40px;
+    color: #151414;
+}
+
+h3{
+    font-size: 30px;
+    font-weight: bold;
+    color: #151414;
+}
+p{
     font-size: 20px;
     margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 5px 4px;;
 }
 
 .btn{
-    font-size: 25px;
-    color: white;
+    font-size: 20px;
+    font-weight: 800px;
+    color: #005FAC;
     background-color: orangered;
     height: 60px;
     width: 160px;
     border: none;
     border-radius: 5px;
-    margin-top: 20px;
-    padding: 5px 4px;
+}
+
+.middle-part{
+    display: flex;
+    align-items: center;
+    margin-top: 100px;
+    margin-left: 200px;
+}
+.middle-part ul> li{
+    list-style-type: none;
+}
+.plans{
+    text-align: center;
+    display: flex;
+}
+.plans ul> li{
+    list-style: 218px 197px;
+    list-style-type: none;
 }
