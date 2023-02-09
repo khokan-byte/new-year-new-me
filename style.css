@@ -7,7 +7,7 @@
 
 header{
     position: relative;
-    background-image: url("../new-year-new-me/images/banner/banner3.png");
+    background-image: url("./images/banner/banner3.png");
     background-repeat: no-repeat;
     background-size: cover;
     height: 810px;
@@ -96,6 +96,12 @@ p{
 }
 .bottom h2{
     margin-bottom: 20px;
+}
+
+.faq{
+    max-width: 60%;
+    margin-left: 300px;
+    margin-bottom: 100px;
 }
 
 footer{
