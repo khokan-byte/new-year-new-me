@@ -7,7 +7,7 @@
 
 header{
     position: relative;
-    background-image: url("/images/banner1.png");
+    background-image: url("../new-year-new-me/images/banner1.png");
     background-repeat: no-repeat;
     background-size: cover;
     height: 810px;
